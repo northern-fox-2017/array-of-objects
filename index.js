@@ -24,6 +24,11 @@ createObj('Adhit', 2, 'male');
 createObj('Tama', 2, 'male');
 createObj('Rifky', 3, 'male');
 
+console.log('Release 0')
+console.log('-----------------------------------------------');
 console.log(arr);
 
+console.log('\n\n');
+console.log('Release 1')
+console.log('-----------------------------------------------');
 console.log(getData('Icha'));
