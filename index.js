@@ -6,6 +6,11 @@ function createObj(name, phase, gender) {
     person.phase = phase;
     person.gender = gender;
     arr.push(person);
+    return arr;
+}
+
+function getData(name) {
+    
 }
 
 createObj('Akbar', 1, 'male');
@@ -15,3 +20,5 @@ createObj('Tama', 2, 'male');
 createObj('Rifky', 3, 'male');
 
 console.log(arr);
+
+console.log(getData('Icha'));
