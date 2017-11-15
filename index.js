@@ -15,8 +15,6 @@ createObj('Naja', 'olahraga', 18);
 
 console.log(arr);
 
-console.log(arr[2].name);
-
 function getData(name){
   for (var i = 0; i < arr.length; i++) {
     if(arr[i].name === name){
