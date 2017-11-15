@@ -10,6 +10,17 @@ createObject('Rizky',2,'male');
 createObject('Fabio',1,'male');
 createObject('Aang',3,'male');
 
-console.log(arr);
+// console.log(arr);
 
-//driver code
+
+function getData(fase){
+  for(let i=0;i<arr.length;i++){
+    if(arr[i].Phase===fase){
+      return arr[i]
+    }
+  }
+
+}
+
+
+console.log(getData(2));
