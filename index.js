@@ -10,7 +10,12 @@ function createObj(name, phase, gender) {
 }
 
 function getData(name) {
-    
+    console.log(name)
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i].name === name){
+            return arr[i];
+        }
+    }
 }
 
 createObj('Akbar', 1, 'male');
