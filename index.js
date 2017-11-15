@@ -17,3 +17,16 @@ createObj('Tama', 2, 'male')
 createObj('Rifky', 3, 'male')
 
 console.log(arr);
+
+
+function getData(name) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].name === name) {
+      return arr[i];
+    }
+  }
+  // return '${0} Not Found !!', name;
+  return name + ' Not Found !!'
+}
+
+console.log(getData('Icha'));
