@@ -27,4 +27,4 @@ var getData = (name) => {
 }
 
 console.log(arr);
-console.log(getData('icha'))
+console.log(getData('ICHA'))
