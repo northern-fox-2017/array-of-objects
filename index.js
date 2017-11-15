@@ -12,7 +12,7 @@ createObj('Icha',1,'female')
 
 console.log(arr[0]['name'])
 
-
+//search
 function getData (name){    
     for(var i=0;i<arr.length;i++){
       if(arr[i]['name'] === name){
